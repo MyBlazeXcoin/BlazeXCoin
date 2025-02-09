@@ -3,47 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlazeXCoin - The Future of Crypto</title>
-    <style>
-        body {
-            background-color: #0a0a0a;
-            color: #e63946;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 36px;
-            text-transform: uppercase;
-        }
-        .logo {
-            width: 200px;
-            height: auto;
-        }
-        .btn {
-            background-color: crimson;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            font-size: 18px;
-            text-transform: uppercase;
-        }
-        .btn:hover {
-            background-color: #900;
-        }
-    </style>
+    <title>BlazeXCoin</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <img class="logo" src="https://yourimagehosting.com/blazexcoin_logo.png" alt="BlazeXCoin Logo">
-        <h1>Welcome to BlazeXCoin</h1>
-        <p>The Most Secure & Anonymous Cryptocurrency</p>
-        <button class="btn">Join the Revolution</button>
-    </div>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Animation -->
+    <section class="hero">
+        <h1 class="animate__animated animate__fadeIn">Welcome to BlazeXCoin</h1>
+        <p>Your gateway to decentralized finance</p>
+        <a href="#join" class="cta-button animate__animated animate__bounceIn">Join Now</a>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+        <h2>Watch Our Intro</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="https://via.placeholder.com/300" alt="BlazeXCoin Image 1">
+            <img src="https://via.placeholder.com/300" alt="BlazeXCoin Image 2">
+            <img src="https://via.placeholder.com/300" alt="BlazeXCoin Image 3">
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section id="join">
+        <h2>Ready to Get Started?</h2>
+        <p>Purchase BlazeXCoin and join the decentralized revolution today!</p>
+        <button>Buy BlazeXCoin</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BlazeXCoin. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
